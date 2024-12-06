@@ -2,8 +2,6 @@
 
 use std::collections::{HashSet, VecDeque};
 
-/// Gets an m x n 2D binary grid grid which represents a map of '1's (land) and
-/// '0's (water), returns the number of islands.
 pub fn num_islands(grid: Vec<Vec<char>>) -> i32 {
     let mut islands = 0;
 

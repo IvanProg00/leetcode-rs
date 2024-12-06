@@ -1,6 +1,5 @@
 //! [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 
-/// Generates all combinations of well-formed parentheses of n pairs of parentheses.
 pub fn generate_parenthesis(n: i32) -> Vec<String> {
     generate_parenthesis_inner(String::new(), n, n, n)
 }

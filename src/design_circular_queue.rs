@@ -1,8 +1,5 @@
 //! [Design Circular Queue](https://leetcode.com/problems/design-circular-queue)
 
-/// The circular queue is a linear data structure in which the operations are performed
-/// based on FIFO (First In First Out) principle, and the last position is connected
-/// back to the first position to make a circle. It is also called "Ring Buffer".
 pub struct MyCircularQueue {
     pub data: Vec<i32>,
     pub head: i32,

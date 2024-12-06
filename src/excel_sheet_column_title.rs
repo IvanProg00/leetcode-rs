@@ -2,8 +2,6 @@
 
 const LAST_LETTER_POS: i32 = (b'Z' - b'A' + 1) as i32;
 
-/// Gets an integer column_number, returns its corresponding column title as it
-/// appears in an Excel sheet.
 pub fn convert_to_title(mut column_number: i32) -> String {
     let mut result = String::new();
 

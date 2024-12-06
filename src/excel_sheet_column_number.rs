@@ -2,8 +2,6 @@
 
 const FROM_START_TO_END: i32 = 'Z' as i32 - 'A' as i32 + 1;
 
-/// Gets a string column_title that represents the column title as appears in an
-/// Excel sheet, returns its corresponding column number.
 pub fn title_to_number(column_title: String) -> i32 {
     column_title.chars().fold(0, |acc, c| {
         acc * FROM_START_TO_END + (c as i32 - 'A' as i32) + 1

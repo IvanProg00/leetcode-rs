@@ -2,8 +2,6 @@
 
 use std::cmp::Ordering;
 
-/// Gets an integer array nums, return all the triplets [nums[i], nums[j], nums[k]]
-/// such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
 pub fn three_sum(mut nums: Vec<i32>) -> Vec<Vec<i32>> {
     nums.sort_unstable();
     let mut result = Vec::new();
