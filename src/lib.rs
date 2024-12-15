@@ -1,3 +1,4 @@
+pub mod contains_duplicate;
 pub mod convert_sorted_array_to_binary_search_tree;
 pub mod design_circular_queue;
 pub mod divide_two_integers;

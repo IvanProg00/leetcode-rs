@@ -21,8 +21,6 @@ impl TreeNode {
     }
 }
 
-/// Gets an integer array nums where the elements are sorted in ascending order,
-/// and converts it to a height-balanced binary search tree.
 pub fn sorted_array_to_bst(nums: Vec<i32>) -> Option<Rc<RefCell<TreeNode>>> {
     let mid = nums.len() / 2;
 
